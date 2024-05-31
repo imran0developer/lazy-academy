@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --foreground-rgb: 48, 56, 65;
+  --background-start-rgb: 58, 71, 80;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -18,16 +18,30 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background:rgb(48, 56, 65);
+  scroll-behavior: smooth !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Custom Group styling */
+
+.nav-item {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-align: center;
 }
+
+.nav-item:hover{
+  color: var(--color-primary);
+  font-weight: 900;
+}
+
+.hero-shape{
+  /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
+  }
+
+  .introDiv:hover {
+    transform: scale(1.1);
+  }
