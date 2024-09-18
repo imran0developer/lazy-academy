@@ -2,6 +2,12 @@
 
 Welcome to Lazy Academy! This project is designed to offer a fun and engaging way to learn coding through interactive and innovative courses. The site is built using modern technologies to provide an enjoyable user experience.
 
+## Demo
+
+Check out the demo GIF below to see the cool animations and how the homepage looks in action!
+
+![Lazy Academy Homepage Animation](public/lazy-academy-demo.gif)
+
 ## Technologies Used
 
 - **Next.js**: A React framework for server-side rendering and static site generation.
@@ -39,11 +45,6 @@ To get started with Lazy Academy, follow these steps:
 
     Open `http://localhost:3000` in your browser to see the application.
 
-## Demo
-
-Check out the demo GIF below to see the cool animations and how the homepage looks in action!
-
-![Lazy Academy Homepage Animation](public/lazy-academy-demo.gif)
 
 ## Usage
 
@@ -61,8 +62,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: imran0developer@gmail.com
+- **GitHub**: [imran0developer](https://github.com/imran0developer)
 
 Happy coding and enjoy your learning journey with Lazy Academy!
 
