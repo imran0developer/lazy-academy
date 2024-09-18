@@ -24,6 +24,19 @@ export default function App() {
         </motion>
       </div>
 
+
+      {/* Feedbacks */}
+      <div className="bg-[#303841] flex flex-col items-center justify-center">
+        <div className="lg:w-[15%]">
+            <h3 className="pt-4 bg-white text-dark font-extrabold text-[36px] text-center">Feedbacks</h3>
+        </div>
+        <iframe
+            src="http://localhost:3000/reviews/embed/lazy-academy?text=black&accent=%23f06525&button=%23f06525&primary=%234ecca3&background=%23303841&cardbg=%234ecca3"
+            frameborder="0"
+            style={{ width: '90%', height: '320px' }}
+          ></iframe>
+      </div>
+
       {/* Introduction */}
       <div id="introduction" className="lg:pb-8 pt-4 lg:pt-16">
         <Introduction></Introduction>
