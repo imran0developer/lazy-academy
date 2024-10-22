@@ -1,5 +1,7 @@
 # Lazy Academy
 
+Deployed Link: [https://lazy-academy.netlify.app/](https://lazy-academy.netlify.app/)
+
 Welcome to Lazy Academy! This project is designed to offer a fun and engaging way to learn coding through interactive and innovative courses. The site is built using modern technologies to provide an enjoyable user experience.
 
 ## Demo
